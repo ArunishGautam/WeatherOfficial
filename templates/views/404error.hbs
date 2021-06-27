@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>headerlinks}}
+</head>
+<body>
+{{>navbar}}
+
+<!-----------Main Header ------------->
+<div class="container-fluid main_header">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <!----------- Left Side Div ------------->
+                <div class="col-md-12 col-12 main_header_left align-items-center">
+                    <figure class="errimg">
+                        <img src="img/404.jpg" alt="ar" class="img-fluid" title="WeatherOfficial">
+                    </figure>
+                    <p>Welcome To WeatherOfficial</p>
+                    <h1>{{errormsg}}</h1>
+                    <a href="/"><button>Go Back</button></a>
+                </div>
+                 <!----------- Right Side Div ------------->
+               
+            </div>
+        </div>
+    </div>
+</div>
+<!----------- Footer Code ------------->
+{{>footer}}
+</body>
+</html>
